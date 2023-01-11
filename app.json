@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "오늘is뭔들",
+    "slug": "todayIsWhatHappen",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#62629D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ChangSics.BigDataApp",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#62629D"
+      },
+      "permissions" : [],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8647279125417942~7315575554"
+      }
+    }
+  }
+}
