@@ -16,17 +16,17 @@ const parseString = require("react-native-xml2js").parseString;
 
 export interface TrendResponse {
   json: any;
+  shuffleJson: any;
 }
 export const trendInfo = async () => {
   const response = await fetch(`${GoogleTrendUrl}`);
   const xml = await response.text();
   let json;
   let shuffleJson;
-  //return xml;
 
   parseString(xml, (err: any, result: any) => {
     json = result.rss.channel[0].item;
-    //shuffleJson = json.sort(() => Math.random() - 0.5);
+    shuffleJson = json.sort(() => Math.random() - 0.5);
   });
-  return { json };
+  return { json, shuffleJson };
 };

@@ -3,9 +3,10 @@
     "name": "TodayIsWhatHappen",
     "slug": "TodayIsWhatHappen",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-8647279125417942~7315575554"
   },
   "name": "TodayIsWhatHappen"
 }
